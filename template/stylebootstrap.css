@@ -1,0 +1,129 @@
+.sharkimg {
+
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+        /* untuk menggelapkan/seperti filter gambar */
+        , url(https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg);
+    background-position: center;
+    /* di bagian tengah layar */
+    display: flex;
+    flex-direction: column;
+    /* untuk sesuai urutan apa terbalik(reverse) */
+    align-items: center;
+    /* di bagian tengah horizontal */
+    justify-content: center;
+    /* di bagian tengah vertikal */
+    color: white;
+}
+
+
+
+.sharkimg>button {
+    background-color: transparent;
+    border: 1px solid white;
+    /* sama kaya outline */
+    color: white;
+    border-radius: 100px;
+    /* untuk ujung button runcing apa ga */
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    /* untuk jarak atas tombol */
+}
+
+.sharkimg>button:hover {
+    border: 2px solid white;
+    /* untuk ketika mouse diatas tombol */
+}
+
+.sharkimg>h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.post {
+    margin: 20px auto 10px auto;
+    width: 95%;
+    max-width: 1200px;
+
+}
+
+.card {
+    margin: 20px auto 10px auto;
+    width: 95%;
+    max-width: 1200px;
+}
+
+.mycomment {
+    color: grey;
+}
+
+.picheight {
+    padding-top: 15px;
+}
+
+.box3 {
+    height: 100%;
+    width: 15%;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0px 0px 3px 0px gray;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.ratinginput {
+    border-radius: 0px;
+    box-shadow: 0px 0px 3px 0px gray;
+    width: 85%;
+    height: 100%;
+    border-color: transparent;
+}
+
+.post1{
+    display: none;
+}
+
+.Rating {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttongui{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+
+}
+
+.button1{
+    border-color: transparent;
+    height: 100%;
+    /* margin-right: 10px; */
+    /* text-align: center; */
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+    width : 50px;
+    margin-right: 5px;
+}
+.button2{
+    border-color: transparent;
+    height: 100%;
+    /* text-align: center; */
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: 50px;
+}
